@@ -57,6 +57,24 @@
   
   .characters li a { text-decoration: none; }
     
+  input[type="checkbox"] { margin-right: 8px; }
+
+    input[type="checkbox"]:checked + span::after {
+    content: '\2713';
+    width: 25px;
+    height: 25px;
+    /*padding: 4px; */
+    border-radius: 50%;
+    background-color: blue;
+    border: 4px solid lightblue ;
+    position: absolute;
+    top: 25px;
+    right: 18px;
+    font-size: 1.5em;
+
+    animation: fadeIn 0.7s;
+    }
+
   .red_bumper {
     width: 100%;
     height: 6px;
