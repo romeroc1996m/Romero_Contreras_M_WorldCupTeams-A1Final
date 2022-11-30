@@ -109,11 +109,11 @@
     background-image: url('../images/WorldCupSprites.jpg');
   }
   
-  #carol { background-position: -150px 0; }
-  #clint { background-position: -300px 0; }
-  #hulk { background-position: -450px 0; }
-  #thor { background-position: -600px 0; }
-  #widow { background-position: -750px 0; }
+  #italy { background-position: -150px 0; }
+  #france { background-position: -300px 0; }
+  #canada { background-position: -450px 0; }
+  #australia { background-position: -600px 0; }
+  #brazil { background-position: -750px 0; }
   
   .sprite:hover { background-position-y: -150px !important; }
   
