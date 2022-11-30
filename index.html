@@ -4,9 +4,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>World Cups Build</title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="hidden">All About the World Cup</h1>
+        <img id="main-logo" src="images/logo.svg" alt="World Cup logo">
+    </header>
+
+    <main>
+        <nav id="character-nav">
+            <ul class="characters">
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite"></div>
+                        <div class="red_bumper"></div>
+                        <h5>USA</h5>
+                    </a>
+                    <!-- <img src="images/usa_flag.jpg" alt="Usa Flag"> -->
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox2">
+                        <div class="sprite" id="carol"></div>
+                        <div class="red_bumper"></div>
+                        <h5>Italy</h5>
+                    </a>
+                    <!-- <img src="images/italy_flag.jpg" alt="Italy Flag"> -->
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox3">
+                    <div class="sprite" id="clint"></div>
+                    <div class="red_bumper"></div>
+                    <h5>France</h5>
+                </a>
+                    <!-- <img src="images/france_flag.jpg" alt="France Flag"> -->
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox4">
+                        <div class="sprite" id="hulk"></div>
+                        <div class="red_bumper"></div>
+                        <h5>Canada</h5>
+                    </a>
+                    <!-- <img src="images/canada_flag.jpg" alt="Canada Flag"> -->
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox5">
+                        <div class="sprite" id="thor"></div>
+                        <div class="red_bumper"></div>
+                        <h5>Australia</h5>
+                    </a>
+                    <!-- <img src="images/australia_flag.jpg" alt="Australia Flag"> -->
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox6">
+                        <div class="sprite" id="widow"></div>
+                        <div class="red_bumper"></div>
+                        <h5>Brazil</h5>
+                    </a>
+                    <!-- <img src="images/brazil_flag.jpg" alt="Brazil Flag"> -->
+                    
+                </li>
+            </ul>
+        </nav>
+
+        <article>
+            <h3>Support Our Teams!</h3>
+            <p>Choose your country to learn more about their World Cup journey.</p>
+        </article>
+
+        <section class="lightbox"></section>
+    </main>
+    <!-- make this a sticky footer so it's always at the bottom-->
+    <footer class="sticky_footer">
+        <h3>All Images &copy; FIFA</h3>
+    </footer>
+
+    <!-- lightbox goes here -->
+    <section class="lightbox" id="lightbox">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">USA</h3>
+            <p class="lb_text">
+                USA
+                The United States' performance at soccer's biggest event has a mixed history. having taken part in the initial World Cup in 1930 and doing well there. 
+            </p>
+            <p class="lb_text">
+                While the United States took part in the first World Cup in 1930 and then advanced to the Round of 16 in 1934, there was a significant period between 1950 and 1990 during which the country did not make the tournament.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Italy</h3>
+            <p class="lb_text">
+                ITALY
+                Italy is among the most successful national teams in World Cup history, having taken home four different championships. The took part in 18 of the 22 games.
+            </p>
+            <p class="lb_text">
+                Italy placed second is Group G during the World Cup qualifying matches. The team participated in 18 of the 22 competitions, making it to six finals and finishing third and fourth overall.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox3">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">France</h3>
+            <p class="lb_text">
+                FRANCE                
+                In 1904, the France national team was formally established. France participated in the first World Cup in 1930. They created history by becoming the first side at the World Cup to score a goal in their opening match when Lucien Laurent beat Mexico.
+            </p>
+            <p class="lb_text">
+                At the Euro 1984, their first European Championship in 24 years, they continued their impressive performance.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox4">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Canada</h3>
+            <p class="lb_text">
+                CANADA
+                When teams in Toronto started playing by Football Association rules in 1876, Canada's men's soccer had its beginnings.
+            </p>
+            <p class="lb_text">
+                Canada had a record of one win, one draw, and two losses during World Cup qualifying. In the North American Group, Canada came in second place but did not advance. The amateur Canadian team competed in both Olympic Qualification and the Pan American Games in Colombia in 1971 during this time period.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox5">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Australia</h3>
+            <p class="lb_text">
+                Although having a short history of involvement in the FIFA Global Cup of Football, Australia has a rich sporting heritage and has won numerous world titles.
+            </p>
+            <p class="lb_text">
+                Australia had played 22 matches by the time they qualified for Russia 2018, becoming the 31st of 32 teams to do so. This was more than any other team had ever played in World Cup qualifying.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox6">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Brazil</h3>
+            <p class="lb_text">
+                BRAZIL
+                The Brazilian Football Confederation was established in 1914, marking the beginning of Brazil's. After the victory in 1922, Brazil went 27 years without winning any medals. 
+            </p>
+            <p class="lb_text">
+                Three players were dismissed from the maracanazo match for violent behaviour on and off the field, and numerous other players also suffered injuries. With the arrival of the 16-year-old Pelé in 1957, football history in Brazil and the rest of the world was permanently altered.
+            </p>
+        </article>
+    </section>
+
+</body>
+
+</html>
 </body>
 </html>
